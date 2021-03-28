@@ -44,5 +44,13 @@
 }
 .button button{
     background-color:var(--btn);
-    
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+}
+.button a{
+    color: #fff;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
 }
