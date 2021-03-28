@@ -19,6 +19,11 @@
     text-align: center;
     padding: 1rem 2rem;
 }
+.wrapper.hide{
+    opacity: 0;
+    visibility: hidden;
+    transition: all 2s ease-in;
+}
 .wrapper img{
     width: 7rem;
 }

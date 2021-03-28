@@ -1,5 +1,13 @@
-const wrapper = document.querySelector('.wrapper'),
-btn =cookie.querySelector('.buttton button');
-btn.onclick=()=>{
-    console.log("Cookie is Active");
+const cookieBox = document.querySelector(".wrapper"),
+acceptBtn = cookieBox.querySelector(".buttton button");
+
+acceptBtn.onclick = ()=>{
+  document.cookie = "CookieBy=Bilal.Rizwaan; max-age="+60*60*24*30;
+  if(document.cookie){ 
+    cookieBox.classList.add("hide"); 
+  }else{
+    alert("Cookie can't be set! Please unblock this site from the cookie setting of your browser.");
+  }
 }
+let checkCookie = document.cookie.indexOf("CookieBy=Bilal.Rizwaan");
+checkCookie != -1 ? cookieBox.classList.add("hide") : cookieBox.classList.remove("hide");
