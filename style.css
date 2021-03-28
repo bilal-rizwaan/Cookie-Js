@@ -36,19 +36,19 @@
     font-family: monospace;
     margin-top: var(--mrgn);
 }
-.button{
+.buttton{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: var(--mrgn);
 }
-.button button{
+.buttton button{
     background-color:var(--btn);
     padding: 5px 10px;
     outline: none;
     border: none;
 }
-.button a{
+.buttton a{
     color: #fff;
     padding: 5px 10px;
     outline: none;
