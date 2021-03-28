@@ -6,6 +6,8 @@
 }
 :root{
     --bgcolor:#3d3d3d;
+    --mrgn:10px;
+    --btn:#ff9f1a;
 }
 .wrapper{
     width: 20rem;
@@ -19,4 +21,28 @@
 }
 .wrapper img{
     width: 10rem;
+}
+.content{
+    padding:10px;
+}
+.content h1{
+    font-size: 2rem;
+    color: #fff;
+    font-family: monospace;
+}
+.content p{
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: monospace;
+    margin-top: var(--mrgn);
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: var(--mrgn);
+}
+.button button{
+    background-color:var(--btn);
+    
 }
